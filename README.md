@@ -37,13 +37,13 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
 
 [] `/minsta` : should contains technical implementations and integrate the call for ordinals inscriptions.
 
-  [] Modify colors and appareance. 
+    [] Modify colors and appareance. 
   
-  [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
+    [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
 
-  [] Write the script to push json file on Ordinals. 
+    [] Write the script to push json file on Ordinals. 
 
-  [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
+    [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
 
 
 [] `/ressources` : every ressources used during this hackathon should be contained here. The `README.md` file into it would contain links for references. 
@@ -53,6 +53,9 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
 
 
 
+# Tools 🧰
+
+- [binary -> ordinals/ord: 🗨 Rare and exotic sats](https://github.com/ordinals/ord/releases/tag/0.11.0)
 
 
 
