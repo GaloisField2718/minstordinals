@@ -46,7 +46,7 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
     [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
 
 
-[] `/ressources` : every ressources used during this hackathon should be contained here. The `README.md` file into it would contain links for references. 
+[x] `/ressources` : every ressources used during this hackathon should be contained here. The `README.md` file into it would contain links for references. 
 
   
 [] `README.md` : should be our organisation point. 
