@@ -16,32 +16,40 @@ When you mint a nft via minsta it triggers a transaction on Ordinals with pushin
 }
 ```
 
-## Why this idea ?
+## Why this idea ❓
 
 We can also think about a two step push with pushing image on Ordinals and after trigger a `minsta mint` operation but it will more expensive. Minsta is already stored on [arweave](https://docs.arweave.org/developers/).
 
 So, it's cheaper and it's a first easy implementation of a cross protocol between mintbase and ordinal.
 
-## Go beyond
+## Go beyond 🚀
 
 What we can see with this technical purpose is anyone can mint a bitcoin only transaction without beeing related to mintbase.
 
-To solve this issue, the Near BOS with indexers could be solution. We will try to show you how it can works in theory to be sure that only valid inscriptions regarding minsta mints are valid to use into Near Ecosystem. 
+To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Indexer | NEAR Documentation](https://docs.near.org/tools/near-lake). We will try to show you how it can works in theory to be sure that only valid inscriptions regarding minsta mints are valid to use into Near Ecosystem. 
 
 
 
 
-# Step-by-step implementation
+# Step-by-step implementation 👣
 
-[]
+[] `/docs` : should contains technical documentation of our project 📂. The main technical vision should be present in it. The slides will be here also.
 
-[]
+[] `/minsta` : should contains technical implementations and integrate the call for ordinals inscriptions.
 
-[]
+  [] Modify colors and appareance. 
+  
+  [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
 
-[]
+  [] Write the script to push json file on Ordinals. 
 
-[]
+  [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
+
+
+[] `/ressources` : every ressources used during this hackathon should be contained here. The `README.md` file into it would contain links for references. 
+
+  
+[] `README.md` : should be our organisation point. 
 
 
 
