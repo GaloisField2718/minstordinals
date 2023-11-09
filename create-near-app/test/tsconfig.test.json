@@ -1,8 +1,0 @@
-{
-  "include": ["."],
-  "compilerOptions": {
-    "strict": false,
-    "noEmit": true,
-    "esModuleInterop": true
-  }
-}
