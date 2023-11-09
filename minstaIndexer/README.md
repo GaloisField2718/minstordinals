@@ -1,12 +1,14 @@
 ---
 
-# OSHIndexer: BRC-20 Javascript Node Package Indexer
+**OriginalAuthor:** m3rl1n
+ **OriginalRepo:** [m3rl1nog/oshindexer: An indexer for BRC20 data using the Blockstream API or a custom Esplora endpoint.](https://github.com/m3rl1nog/oshindexer)
 
-**Author:** m3rl1n 
+# MinstaIndexer : minsta Javascript Node Package Indexer
+
 
 ## Introduction
 
-Introducing OSHIndexer, a lightweight and efficient BRC-20 Javascript Node Package. This indexer is designed to extract BRC20 data leveraging the Blockstream API or a custom Esplora endpoint, all in under 200 lines of code.
+Introducing minstaIndexer, a lightweight and efficient BRC-20 Javascript Node Package. This indexer is designed to extract BRC20 data leveraging the Blockstream API or a custom Esplora endpoint, all in under 200 lines of code.
 
 ## Prerequisites
 
@@ -17,12 +19,12 @@ Introducing OSHIndexer, a lightweight and efficient BRC-20 Javascript Node Packa
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/m3rl1n/oshindexer.git
+   git clone https://github.com/GaloisField2718/mistordinals/minstaIndexer.git
    ```
 
 2. **Navigate to the Directory and Install Dependencies**:
    ```bash
-   cd oshindexer
+   cd minstaindexer
    npm install
    ```
 
@@ -30,24 +32,24 @@ Introducing OSHIndexer, a lightweight and efficient BRC-20 Javascript Node Packa
 
 1. **Default Usage with Blockstream API**:
    ```bash
-   node oshindexer.js
+   node minstaindexer.js
    ```
 
 2. **Set a Blockstream API Key**:
    In the script, use:
    ```javascript
-   oshindexer.setApiKey('<YOUR_API_KEY>');
+   minstaindexer.setApiKey('<YOUR_API_KEY>');
    ```
 
 3. **Specify a Custom Esplora Endpoint**:
    In the script, use:
    ```javascript
-   oshindexer.setEsploraEndpoint('<YOUR_ESPLORA_ENDPOINT>');
+   minstaindexer.setEsploraEndpoint('<YOUR_ESPLORA_ENDPOINT>');
    ```
 
 4. **Run the SDK from a Specific Block**:
    ```bash
-   node oshindexer.js <BLOCK_NUMBER>
+   node minstaindexer.js <BLOCK_NUMBER>
    ```
 
 ## Enhanced Features
@@ -62,4 +64,4 @@ Introducing OSHIndexer, a lightweight and efficient BRC-20 Javascript Node Packa
 
 ## Conclusion
 
-OSHIndexer embodies the spirit of decentralization and transparency. It empowers users to seamlessly index and analyze BRC20 data. In the world of blockchain, code truly is law.
+minstaIndexer embodies the spirit of decentralization and transparency. It empowers users to seamlessly index and analyze BRC20 data. In the world of blockchain, code truly is law.
