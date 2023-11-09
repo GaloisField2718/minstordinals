@@ -9,9 +9,10 @@ When you mint a nft via minsta it triggers a transaction on Ordinals with pushin
 {
   "p": "minsta",
   "op" : "mint",
-  "minsta-account" : "my_account.minsta.near",
-  "minsta_id" : "aef...",
-  "file" : "https://mintbase.com/aef...",
+  "owner" : "my_account.minsta.near",
+  "id" : "aef...",
+  "url" : "https://testnet.mintbase.com/aef...",
+  "tx" : "tx id",
   "meta" : "Your description and much more coming soon ;)"
 }
 ```
