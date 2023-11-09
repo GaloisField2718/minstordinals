@@ -46,13 +46,13 @@
 
 
 :root {
-          --primary: #F3F4F8;
+          --primary: #e68e09;
           --secondary: #000;
-          --mainBg: #FFFFFF;
+          --mainBg: #d9b475;
           --gradOne: #4472ad;
           --gradTwo: #009dea;
-          --cardOne: #E8EAF0;
-          --cardTwo: #049BE8;
+          --cardOne: #efb506;
+          --cardTwo: #e85b04;
           --linkColor: #4f58a3;
           --icon: #4B9CE3;
           --camera: #FFFFFF;
@@ -62,6 +62,6 @@
           --mainText: #000000;
           --freeUseText: #0A7D6C;
           --bgFreeUse: #0A7D6C1A;
-          --primaryBtnText: #000000;
+          --primaryBtnText: #FFFFFF;
           --secondaryBtnText: #000000;
         }
