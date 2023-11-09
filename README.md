@@ -33,23 +33,26 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
 
 # Step-by-step implementation 👣
 
-[] `/docs` : should contains technical documentation of our project 📂. The main technical vision should be present in it. The slides will be here also.
+[IN PROGRESS] `/docs` : should contains technical documentation of our project 📂. The main technical vision should be present in it. The slides will be here also.
+  [x] `/schemas` : Roadmap and workflows.
+  [IN PROGRESS] `whitepaper.pdf` : Describe each part of minstordinals, its implementation and its vision. 
+  [] `doc.pdf` : A more complete documentation with technical information.
 
 [] `/minsta` : should contains technical implementations and integrate the call for ordinals inscriptions.
 
-    [] Modify colors and appareance. 
+  [] Modify colors and appareance. 
   
-    [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
+  [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
 
-    [] Write the script to push json file on Ordinals. 
+  [] Write the script to push json file on Ordinals. 
 
-    [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
+  [] Push one basic `minsta mint` json file with [Testing - Ordinal Theory Handbook](https://docs.ordinals.com/guides/testing.html).
 
 
 [x] `/ressources` : every ressources used during this hackathon should be contained here. The `README.md` file into it would contain links for references. 
 
   
-[] `README.md` : should be our organisation point. 
+[x] `README.md` : should be our organisation point. 
 
 
 
