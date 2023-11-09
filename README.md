@@ -34,15 +34,18 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
 # Step-by-step implementation 👣
 
 [IN PROGRESS] `/docs` : should contains technical documentation of our project 📂. The main technical vision should be present in it. The slides will be here also.
+
   [x] `/schemas` : Roadmap and workflows.
+
   [IN PROGRESS] `whitepaper.pdf` : Describe each part of minstordinals, its implementation and its vision. 
+
   [] `doc.pdf` : A more complete documentation with technical information.
 
 [] `/minsta` : should contains technical implementations and integrate the call for ordinals inscriptions.
 
   [] Modify colors and appareance. 
   
-  [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. 
+  [] Check nft deployment. The goal is to understand what data are required, what are given and what can we get from deployment. Check `./src/utils/useMint.tsx` file. There is `const performTransaction = async (wallet: any,metadata: any)` and `const mintImage = async (photo: string)` defined.  
 
   [] Write the script to push json file on Ordinals. 
 
