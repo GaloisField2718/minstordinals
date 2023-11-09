@@ -1,10 +1,10 @@
 .DS_Store
-docs/abstract.out
-docs/abstract.tex
-docs/abstract.aux
-docs/abstract.log
-docs/abstract.toc
-docs/abstract.synctex.gz
+docs/whitepaper.out
+docs/whitepaper.tex
+docs/whitepaper.aux
+docs/whitepaper.log
+docs/whitepaper.toc
+docs/whitepaper.synctex.gz
 docs/doc.tex
 docs/doc.out
 docs/doc.log
