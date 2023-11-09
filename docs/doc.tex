@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsthm,amsmath,amssymb,amsfonts}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{tocbibind}
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage{hyperref} %Sert à utiliser la commande \href
+\usepackage{listings} %Sert à introduire du code dans le fichier tex avec \begin{lstlisting} CODE \end{lstlisting}
+
+
+
+%%%%%Marges & en-t\^etes
+
+\geometry{hmargin=2.3cm, vmargin=3cm}
+\fancyhf{} % supprime les en-tetes et pieds prédéfinis
+\fancyhead[FC]{\bfseries\thepage} % N∞page centre bas
+\fancyhead[HC]{\footnotesize\leftmark} % chapitre centre haut
+\renewcommand{\headrulewidth}{0.2pt} % filet en haut
+\addtolength{\headheight}{0.5pt} % espace pour le filet
+\renewcommand{\footrulewidth}{0.2pt} %filet en bas
+
+
+
+
+\newtheorem{theorem}{{\bf Théorème}}[section]
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{corollary}{{\bf Corollaire}}[section]
+\newtheorem{lemma}{{\bf Lemme}}[section]
+\newtheorem{proposition}{{\bf Proposition}}[section]
+\newtheorem{definition}{{\bf Définition}}[section]
+\textwidth = 16.5cm
+\textheight = 21.3cm
+\topmargin = 0.cm
+\evensidemargin = 0.cm
+\oddsidemargin = 0.cm
+
+
+%%\renewcommand{\theequation}{{\rm\thesection.\arabic{equation}}}
+
+\begin{document}
+\title{TITRE}
+\author{}
+
+\maketitle
+\numberwithin{equation}{section}
+\abstract{CECI EST UN RESUME}
+
+\tableofcontents
+
+\section{Introduction}
+
+BONJOUR C MOI
+
+$m^2$
+
+
+\section{}
+
+%Système 
+
+\[
+\left \{
+\begin{array}{c @{=} c}
+    x & \sin a \cos b \\
+    y & \sin a \sin b \\
+\end{array}
+\right.
+\]
+
+nhghjghjgjghjhgjhghjghjgjg
+
+
+
+
+
+
+\section{}
+
+
+
+
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{} 
+
+\bibitem{}
+
+
+\bibitem{}
+
+\end{thebibliography}
+
+
+
+\end{document}

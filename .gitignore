@@ -1,11 +1,15 @@
 .DS_Store
 ./docs/abstract.out
 ./docs/abstract.tex
+./docs/abstract.aux
 ./docs/abstract.log
+./docs/abstract.toc
 ./docs/abstract.syntex.gz
 ./docs/doc.tex
 ./docs/doc.out
 ./docs/doc.log
+./docs/doc.toc
+./docs/doc.aux
 ./docs/doc.syntex.gz
 ./*/.DS_Store
 
