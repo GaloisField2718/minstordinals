@@ -63,5 +63,7 @@ To solve this issue, the Near BOS with indexers could be solution [NEAR Lake Ind
 
 - [binary -> ordinals/ord: 🗨 Rare and exotic sats](https://github.com/ordinals/ord/releases/tag/0.11.0)
 
+- [indexer brc-20 example](https://github.com/m3rl1nog/oshindexer.git)
 
+- [Boilerplate connect unisat wallet](https://github.com/Larkhell/connect-unisat-react-dapp)
 
