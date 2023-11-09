@@ -1,9 +1,13 @@
+/*
+ * Forked from oshindexer by m3rl1n
+ * */
+
 const https = require('https');
 const fs = require('fs');
 const ProgressBar = require('progress');
 const moment = require('moment');
 
-const oshindexer = {
+const minstaindexer = {
     // List of API endpoints. We start with Blockstream's Esplora, but you can add more for decentralization.
     apiEndpoints: [
         'https://blockstream.info/api',
@@ -91,11 +95,11 @@ const oshindexer = {
         }
     },
 
-    // Extract BRC20 data from a transaction.
-    extractBRC20FromTx: async function(txData) {
+    // Extract minsta data from a transaction.
+    extractMinstaFromTx: async function(txData) {
         if (!txData || !txData.vin) return [];
 
-        const brc20Data = txData.vin.flatMap(vin => {
+        const minstaData = txData.vin.flatMap(vin => {
             if (!vin.witness) return [];
 
             return vin.witness.map(witnessData => {
@@ -116,7 +120,7 @@ const oshindexer = {
             }).filter(data => data !== null);
         });
 
-        return brc20Data;
+        return minstaData;
     },
 
     // Fetch all transaction IDs for a given block hash.
@@ -146,5 +150,5 @@ const oshindexer = {
 
 // Start the indexer.
 const startingBlockHeight = process.argv[2] ? parseInt(process.argv[2]) : 785993;
-oshindexer.refreshData();
+minstaindexer.refreshData();
 
