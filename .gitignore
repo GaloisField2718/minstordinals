@@ -1,0 +1,11 @@
+.DS_Store
+./docs/abstract.out
+./docs/abstract.tex
+./docs/abstract.log
+./docs/abstract.syntex.gz
+./docs/doc.tex
+./docs/doc.out
+./docs/doc.log
+./docs/doc.syntex.gz
+./*/.DS_Store
+
