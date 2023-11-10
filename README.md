@@ -17,8 +17,7 @@ When you mint a nft via minsta it triggers a transaction on Ordinals with pushin
 }
 ```
 
-[First inscription](https://mempool.space/tx/ffd4c92516a69bf16fd5231566b5c4b255b9bae95476d706c0b368ddaa4d85ac)
-
+[First inscription](https://unisat.io/inscription/ffd4c92516a69bf16fd5231566b5c4b255b9bae95476d706c0b368ddaa4d85aci0)
 ## Why this idea ❓
 
 We can also think about a two step push with pushing image on Ordinals and after trigger a `minsta mint` operation but it will more expensive. Minsta is already stored on [arweave](https://docs.arweave.org/developers/).
